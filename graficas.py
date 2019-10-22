@@ -2,7 +2,7 @@ from numpy import *
 from matplotlib.pylab import *
 
 t=linspace(0,2*pi,100)
-seno = lambda t: sin(t)
+cosi = lambda t: cos(t)
 
-plot(seno(t))
-savefig('sin.png')
+plot(cosi(t))
+savefig('cos.png')
